@@ -129,8 +129,19 @@ img {
     padding-top: 0.5rem;
 }
 
+/* targeting the direct div above container */
 .tabs .container > div {
     padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+    cursor: pointer;
+    color: white;
+
+}
+
+.tab-border {
+    border-bottom: 4px solid var(--primary-color);
 }
 
 /* container */
