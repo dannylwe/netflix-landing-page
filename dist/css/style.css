@@ -300,4 +300,42 @@ img {
     text-transform: uppercase;
 }
 
-/* continue at 31:29 */
+@media(max-width: 960px) {
+    .showcase {
+        height: 70vh
+    }
+    .hide-sm {
+        display: none;
+    }
+    .showcase-top img {
+        top: 30%;
+        left:5%;
+        transform: translate(0);
+    }
+    .showcase-content h1 {
+        font-size: 3.7rem;
+        line-height: 1;
+    }
+    .showcase-content p {
+        font-size: 1.2rem;
+    }
+
+    .footer .footer-cols {
+       grid-template-columns: repeat(2, 1fr); 
+    }
+    .btn-lg {
+        font-size: 1.2rem;
+        padding: 1.1rem 1.2rem;
+    }
+    .text-xl {
+        font-size: 1.4rem;
+    }
+    .text-lg {
+        font-size: 1.3rem;
+    }
+    .text-md {
+        font-size: 1.1rem;
+    }
+}
+
+/* continue at 1:16:32 */
