@@ -202,6 +202,22 @@ img {
     background: #222;
 }
 
+/* footer */
+.footer {
+    max-width: 85%;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+
+.footer .footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
 /* container */
 .container {
     max-width: 80%;
