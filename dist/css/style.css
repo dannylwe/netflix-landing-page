@@ -1,6 +1,7 @@
 :root {
     --primary-color: #e50914;
     --hover-color-btn: #ff343e;
+    --dark-color: #141414;
 }
 
 * {
@@ -108,6 +109,39 @@ img {
     margin: 0 0 2rem;
 }
 
+/* tabs */
+.tabs {
+    background: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+    column-gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tabs p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+    padding: 1.5rem 0;
+}
+
+/* container */
+.container {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+
 /* buttons */
 .btn {
     display: inline-block;
@@ -143,3 +177,5 @@ img {
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
+
+/* continue at 31:29 */
