@@ -209,13 +209,27 @@ img {
     overflow: hidden;
 }
 
-.footer .footer a {
+.footer, .footer a {
     color: #999;
     font-size: 0.9rem;
 }
 
 .footer p {
     margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer li {
+    line-height: 1.9;
 }
 
 /* container */
