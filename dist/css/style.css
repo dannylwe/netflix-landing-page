@@ -336,6 +336,30 @@ img {
     .text-md {
         font-size: 1.1rem;
     }
+    .btn-lg {
+        font-size: 0.8rem;
+        padding: 0.7rem 1rem;
+        text-transform: uppercase;
+    }
+
+    @media(max-width: 700px) {
+        #tab-1-content-1 .tab-1-content-content-inner{
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        #tab-2-content .tab-2-content-top {
+            display: block;
+            text-align: center;
+        }
+        
+        .tab-2-content-bottom {
+            grid-template-columns: 1fr;
+        }
+        .showcase::after {
+            /* box shadow around the image */
+            box-shadow: inset 80px 80 250px #000000, -80px -80 250px #000000;
+        }
+    }
 }
 
 /* continue at 1:16:32 */
